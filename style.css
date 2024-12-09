@@ -1,0 +1,21 @@
+@keyframes fadeInRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+	font-family: "hoss-round-narrow", sans-serif;
+	font-weight: 700;
+	font-size: 200px;
+	font-style: normal;
+	text-align: center;
+	color: #E36588; 
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+	animation: fadeInRotate 2s ease-in-out;
+}
